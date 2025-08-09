@@ -2,32 +2,38 @@
 
 A beautiful and feature-rich task management application built with React, TypeScript, and Firebase. TaskFlow helps you organize your work and achieve your goals with an intuitive interface and powerful features.
 
+**🌐 Live Demo:** [https://to-do-tasks-kawin.netlify.app/](https://to-do-tasks-kawin.netlify.app/)
+
+**👨‍💻 Developed by:** MS Kawin
+
+---
+
 ## ✨ Features
 
-- **🔐 Secure Authentication**: Email/password authentication with Firebase Auth
-- **📝 Full CRUD Operations**: Create, read, update, and delete tasks
-- **🎯 Task Status Management**: Track tasks through pending, in-progress, and completed states
-- **📅 Due Date Tracking**: Set due dates and get overdue notifications
-- **🔍 Advanced Filtering**: Filter tasks by status and due date ranges
-- **📊 Real-time Statistics**: View task counts and progress at a glance
-- **📱 Responsive Design**: Works perfectly on desktop, tablet, and mobile
-- **🎨 Beautiful UI**: Modern design with violet and green color scheme
-- **⚡ Real-time Updates**: Instant synchronization across devices
-- **📄 Pagination**: Efficient loading with pagination support
+- 🔐 **Secure Authentication**: Email/password authentication with Firebase Auth
+- 📝 **Full CRUD Operations**: Create, read, update, and delete tasks
+- 🎯 **Task Status Management**: Track tasks through pending, in-progress, and completed states
+- 📅 **Due Date Tracking**: Set due dates and get overdue notifications
+- 🔍 **Advanced Filtering**: Filter tasks by status and due date ranges
+- 📊 **Real-time Statistics**: View task counts and progress at a glance
+- 📱 **Responsive Design**: Works perfectly on desktop, tablet, and mobile
+- 🎨 **Beautiful UI**: Modern design with violet and green color scheme
+- ⚡ **Real-time Updates**: Instant synchronization across devices
+- 📄 **Pagination**: Efficient loading with pagination support
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **React 18** with TypeScript
-- **Tailwind CSS** for styling
-- **React Hook Form** for form management
-- **Lucide React** for icons
-- **Date-fns** for date formatting
+- React 18 with TypeScript
+- Tailwind CSS for styling
+- React Hook Form for form management
+- Lucide React for icons
+- Date-fns for date formatting
 
 ### Backend
-- **Firebase Authentication** for user management
-- **Cloud Firestore** for data storage
-- **Firebase Security Rules** for data protection
+- Firebase Authentication for user management
+- Cloud Firestore for data storage
+- Firebase Security Rules for data protection
 
 ## 🚀 Getting Started
 
@@ -50,7 +56,7 @@ A beautiful and feature-rich task management application built with React, TypeS
    ```
 
 3. **Set up Firebase**
-   - Create a new Firebase project at [Firebase Console](https://console.firebase.google.com/)
+   - Create a new Firebase project at [Firebase Console](https://console.firebase.google.com)
    - Enable Authentication with Email/Password
    - Create a Firestore database
    - Copy your Firebase configuration
@@ -61,7 +67,7 @@ A beautiful and feature-rich task management application built with React, TypeS
    ```
    
    Update `.env` with your Firebase configuration:
-   ```
+   ```env
    VITE_FIREBASE_API_KEY=your_api_key
    VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
    VITE_FIREBASE_PROJECT_ID=your_project_id
@@ -73,8 +79,7 @@ A beautiful and feature-rich task management application built with React, TypeS
 
 5. **Set up Firestore Security Rules**
    
-   Copy the contents of `firestore.rules` to your Firebase project's Firestore Rules:
-   
+   Copy the following rules to your Firebase project's Firestore Rules:
    ```javascript
    rules_version = '2';
    service cloud.firestore {
@@ -95,7 +100,7 @@ A beautiful and feature-rich task management application built with React, TypeS
    ```bash
    npm run dev
    ```
-
+   
    The app will be available at `http://localhost:5173`
 
 ## 🏗️ Project Structure
@@ -134,6 +139,8 @@ tasks/
 │   └── userId: string
 ```
 
+**📊 Database Link:** [View Firestore Database](https://console.firebase.google.com/project/tasks-65cd6/firestore/databases/-default-/data/~2Fusers~2FTz0bFrDi2TbxxEGkmi5R5Dnglb33)
+
 ### Security Rules
 - Users can only access their own tasks
 - All operations require authentication
@@ -162,7 +169,10 @@ tasks/
 
 ## 🚀 Deployment
 
-### Firebase Hosting (Recommended)
+### Netlify (Current Deployment)
+The application is currently deployed on Netlify at: [https://to-do-tasks-kawin.netlify.app/](https://to-do-tasks-kawin.netlify.app/)
+
+### Firebase Hosting (Alternative)
 
 1. **Install Firebase CLI**
    ```bash
@@ -215,6 +225,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Tailwind CSS for styling system
 - Lucide React for beautiful icons
 - React Hook Form for form management
+- Netlify for hosting services
 
 ## 📞 Support
 
@@ -222,4 +233,6 @@ If you have any questions or need help, please open an issue on GitHub.
 
 ---
 
-Built with ❤️ using React, TypeScript, and Firebase
+**Built with ❤️ using React, TypeScript, and Firebase by MS Kawin**
+
+**🌐 Live Application:** [TaskFlow - Task Management App](https://to-do-tasks-kawin.netlify.app/)
