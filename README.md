@@ -139,7 +139,7 @@ tasks/
 │   └── userId: string
 ```
 
-**📊 Database Link:** [View Firestore Database]([https://console.firebase.google.com/project/tasks-65cd6/firestore/databases/-default-/data/~2Fusers~2FTz0bFrDi2TbxxEGkmi5R5Dnglb33](https://console.firebase.google.com/project/task-89c9e/firestore/databases/-default-/data/~2Ftasks~2F3yq5G55eeecpowxFz5eC)) 
+**📊 Database Link:** [View Firestore Database](https://console.firebase.google.com/project/task-89c9e/firestore/databases/-default-/data/~2Ftasks~2F3yq5G55eeecpowxFz5eC)
 
 ### Security Rules
 - Users can only access their own tasks
